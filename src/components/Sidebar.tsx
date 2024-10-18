@@ -39,7 +39,7 @@ const Sidebar: React.FC<SidebarProps> = ({ open, setOpen }) => {
         <div className="flex items-center mb-6">
           <Zap className="h-8 w-8 text-blue-500 mr-2" />
           <div className={`flex flex-col ${!open && "hidden"}`}>
-            <h1 className="text-blue-500 font-medium text-xl">Coinmetro</h1>
+            <h1 className="text-blue-500 font-medium text-xl">North Star Metric</h1>
             <div className="flex items-center text-sm text-gray-500">
               <span className="mr-1">Demo</span>
               <span className="font-bold">55,080.48 USD</span>
